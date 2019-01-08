@@ -1,0 +1,15 @@
+current directory: /home/hsm-hx/programming/vue/hello-vue/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+/home/hsm-hx/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20190108-24616-v2gp7s.rb extconf.rb
+creating Makefile
+
+current directory: /home/hsm-hx/programming/vue/hello-vue/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /home/hsm-hx/programming/vue/hello-vue/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+current directory: /home/hsm-hx/programming/vue/hello-vue/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20190108-24616-2cq4r/bindex
