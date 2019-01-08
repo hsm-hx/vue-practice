@@ -69,3 +69,20 @@ document.addEventListener('DOMContentLoaded', () => {
 //     components: { App }
 //   })
 // })
+
+new Vue({
+  // TODO: このappってなにかわからん
+  el: '#app',
+  data: {
+    count: 0
+  },
+  methods: {
+    countup: function(){
+      this.count ++
+    }
+  },
+  created: function(){
+    console.log("created")
+  }
+})
+
